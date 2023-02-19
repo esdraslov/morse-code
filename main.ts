@@ -13,6 +13,7 @@ namespace morse {
             music.playTone(Note.C, music.beat(BeatFraction.Whole))
         }
     }
+    //% block="make a short sound ?show %show"
     export function makeShortSound(show: boolean = false) {
         if (show == false) {
             music.playTone(Note.C, music.beat(BeatFraction.Whole))
