@@ -1,4 +1,5 @@
 namespace morse {
+    //% block="make a long sound ?show %show"
     export function makeLongSound(show: boolean = false) {
         if(show == false){
             music.playTone(Note.C, music.beat(BeatFraction.Whole))
